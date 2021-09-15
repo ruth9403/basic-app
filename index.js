@@ -8,10 +8,13 @@ app.get('/', (req, res) =>{
     res.send('Hello World');
 });
 
+<<<<<<< HEAD
 app.get('/date', (req, res) => {
     res.send(`Date is ${(new Date()).toLocaleDateString("es-CO")}`)
 });
 
+=======
+>>>>>>> 3006c8aef740e40ba773373201e002842b2a98ee
 app.get('/day', (req, res) => {
     days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
     date = new Date()
